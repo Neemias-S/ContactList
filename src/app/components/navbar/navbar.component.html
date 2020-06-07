@@ -1,0 +1,25 @@
+<nav class="navbar w-100 d-flex justify-content-between">
+
+    <div class="d-flex align-items-center">
+        <img src="{{logoPuc}}" class="logo">
+        <div class="ml-2" >Trabalho de Tecnologias Web - Angular</div>
+    </div>
+    
+
+    <div class="d-flex">
+
+        <div class="btn btn-info mx-2 cursor-hand" (click)="goBack()">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+        </div>
+
+        <div class="btn btn-info mx-2 cursor-hand" routerLink="home">
+            Introdução
+        </div>
+
+        <div class="btn btn-info mx-2 cursor-hand" routerLink="/contatos">
+            Meus Contatos
+        </div>
+        
+    </div>
+
+</nav>
