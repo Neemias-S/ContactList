@@ -7,7 +7,10 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
-import { AddContactComponent } from './components/add-contact/add-contact.component';
+import { AddContactComponent } from './components/add.contact/add.contact.component';
+import { ToastrService, ToastrModule } from 'ngx-toastr';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -21,10 +24,15 @@ import { AddContactComponent } from './components/add-contact/add-contact.compon
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot({
+      timeOut: 7500
+    })
+
 
   ],
-  providers: [],
+  providers: [ ToastrService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

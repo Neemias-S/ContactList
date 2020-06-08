@@ -11,13 +11,14 @@ nav{
 
 .cursor-hand{
     
-    background-color: transparent;
-    color: #007bff;
+    background-color: #007bff;
+    color: white;
     
     &:hover{ 
+        background-color: transparent;
+        color: #007bff;
         cursor: pointer;
-        background-color: #007bff;
-        color: white;
+
     }
 
 }

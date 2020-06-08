@@ -7,19 +7,20 @@
     
 
     <div class="d-flex">
-
-        <div class="btn btn-info mx-2 cursor-hand" (click)="goBack()">
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
-        </div>
-
+        
         <div class="btn btn-info mx-2 cursor-hand" routerLink="home">
             Introdução
         </div>
-
+        
         <div class="btn btn-info mx-2 cursor-hand" routerLink="/contatos">
             Meus Contatos
         </div>
-        
+
+        <!-- Adicionar contato -->
+        <div title="Adicionar contato" class="btn btn-info mx-2 cursor-hand" routerLink="/adicionar">
+            Adicionar contatos
+        </div>
+
     </div>
 
 </nav>

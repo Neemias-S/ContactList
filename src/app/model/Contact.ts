@@ -5,6 +5,7 @@ import { Picture } from './Picture';
 export class Contact{
 
     constructor(
+        public id: Number,
         public gender : String,
         public name : Name,
         public email :String,
@@ -12,7 +13,8 @@ export class Contact{
         public phone : String,
         public picture : Picture,
         public registered : Registered,
-        public nat : String
+        public nat : String,
+        public favorited? : Boolean
     ){}
 
 }

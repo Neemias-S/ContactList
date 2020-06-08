@@ -1,6 +1,7 @@
-import { HomeServiceService } from '../../service/home-service.service';
+import { SharedServices } from '../../service/SharedServices';
 import { Contact } from '../../model/Contact';
 import { Component, OnInit } from '@angular/core';
+import { ToastrService } from 'ngx-toastr';
 
 @Component({
   selector: 'app-contacts',
@@ -9,13 +10,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactsComponent implements OnInit {
 
-  constructor( private service : HomeServiceService) { }
+  constructor( private service : SharedServices, private toast : ToastrService) { }
+  
   contacts : Array<Contact> ;
   searchText;
+
   ngOnInit() {
-
     this.loadUsers();
-
   }
 
   loadUsers(){
@@ -28,6 +29,20 @@ export class ContactsComponent implements OnInit {
     }
 
     this.contacts  = this.contacts.filter(contact => contact.name.first.includes(this.searchText))
+  }
+
+  async deleteContact(id : Number){
+    this.toast.error("Contato deletado!", "");
+    await this.service.deleteContact(id).subscribe(res => this.loadUsers());
+  }
+
+  favoriteContact(contact :Contact ) {
+    contact.favorited = !contact.favorited;
+  
+    let message = contact.favorited ? "favoritado(a)!" : " removido(a) dos favoritos!"
+    return this.service.favoriteContact(contact).subscribe(res => 
+      this.toast.info(contact.name.first + " " + contact.name.last + " foi " + message, "") 
+      );
   }
 
 }

@@ -1,19 +1,7 @@
-$bgNavBar : #011638;
-$bgDefault : #E7E5DF;
-
 $bgCard: #007bff;
-
-$white : white;
 $sizeBars : 3rem;
-//Borda
 
-$border: #6c757d;
-
-*{
-    &:not(i){ font-family: 'montserrat'; }
-    font-size: 1rem;
-
-}
+$white : #FFF;
 
 .card{
 
@@ -30,17 +18,8 @@ $border: #6c757d;
     
 }
 
-.menu-bar{
-    color: black!important;
-    border: 1px solid $border; 
-    border-radius: 10px; 
-    width: calc(18.7rem * 4);
-    height: $sizeBars;
-    padding: 0 2rem;
-}
-
-.fs-smaller{
-    font-size: smaller;
+.flags{
+    height: 1.5rem;
 }
 
 .cursor-hand{
@@ -59,14 +38,22 @@ $border: #6c757d;
 
 }
 
-.flags{
-    height: 1.5rem;
-}
-
 .btn-contact{
     background-color: transparent;
-    &:hover{
-        color: #e63438!important;
+    color: #28a745;
+    &:hover{        
+        color: lighten(#FFF, 5%);
         cursor: pointer;
     }
+}
+
+$border: #6c757d;
+
+.menu-bar{
+    color: black!important;
+    border: 1px solid $border; 
+    border-radius: 10px; 
+    width: calc(18.7rem * 4);
+    height: $sizeBars;
+    padding: 0 2rem;
 }
