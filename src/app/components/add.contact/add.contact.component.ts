@@ -27,7 +27,7 @@ export class AddContactComponent implements OnInit {
   }
 
   getMoreUsers(){
-    this.service.getMoreUsers(20).subscribe( res=> this.contacts = res[0].results );
+    this.service.getMoreUsers(12).subscribe( res=> this.contacts = res[0].results );
   }
   
   filterUsers(){
