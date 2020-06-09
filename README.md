@@ -1,6 +1,6 @@
 # PUC Minas - Sistemas de Informação - Tecnologias Web 
 
-<p> Este repositório foi criado para um trabalho universitário sobre o framework Angular no qual construímos um sistema de lista de contatos.
+<p> Este repositório foi criado para um trabalho universitário sobre o framework Angular, no qual construímos um sistema de lista de contatos.
 
 <p> O usuário pode favoritar, excluir, adicionar e visualizar seus contatos contemplando as ações de CRUD como solicitado.
   
