@@ -20,9 +20,9 @@ Para os passos a seguir é necessário a configuração prévia do Backend, se a
 
  2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
 
- 3 : Para clonar o projeto, entre no repositório desejado, abra o prompt de comando e execute : `git clone https://github.com/Neemias-S/ContactList.git`
+ 3 : Para clonar o projeto, entre no diretório desejado, abra o prompt de comando e execute : `git clone https://github.com/Neemias-S/ContactList.git`
 
- 4 : Para instalar as dependencias do projeto (pode levar alguns minutos) : `npm install -s`
+ 4 : Para instalar as dependencias do projeto, abra o prompt de comando no diretório que acabou de clonar e execute : `npm install -s`
 
  5 : Para subir o servidor local : `ng serve`
 
