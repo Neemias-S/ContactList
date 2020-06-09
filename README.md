@@ -17,7 +17,7 @@
 
 ## Como rodar o projeto:
 
-> 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : https://nodejs.org/en/download/ 
+> 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : <a href="https://nodejs.org/en/download/" > 
 
 > 2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
 
