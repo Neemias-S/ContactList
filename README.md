@@ -10,7 +10,7 @@
   
   > https://www.countryflags.io/ : Para obter as bandeiras dos países origem de cada contato ;
 
-<a href="https://github.com/Neemias-S/ContactListBack" target="_blank">`Repositório Backend`</a>
+ > <a href="https://github.com/Neemias-S/ContactListBack" target="_blank">`Repositório Backend`</a> : Projeto em Spring
 
 ## Como rodar o projeto:
 
