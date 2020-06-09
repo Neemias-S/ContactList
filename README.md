@@ -13,11 +13,11 @@
   
   > https://www.countryflags.io/ : Para obter as bandeiras dos países origem de cada contato ;
 
-<a href="https://github.com/Neemias-S/ContactListBack">`Repositório Backend`
+<a href="https://github.com/Neemias-S/ContactListBack">`Repositório Backend`</a>
 
 ## Como rodar o projeto:
 
-> 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : <a href="https://nodejs.org/en/download/" target="_blank"> 
+> 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : <a href="https://nodejs.org/en/download/" target="_blank"> </a>
 
 > 2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
 
