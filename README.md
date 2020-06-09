@@ -1,32 +1,21 @@
-<img style="width: 2px!important;" src="https://web.sistemas.pucminas.br/BDP/PUC%20Minas/Home/Logo?seq=16EC68D2C1F309FAA3972EF167C78189">
+<img style="max-width: 20%!important;" src="https://web.sistemas.pucminas.br/BDP/PUC%20Minas/Home/Logo?seq=16EC68D2C1F309FAA3972EF167C78189">
 
 
 # Sistemas de Informação - Tecnologias Web
 
+<p> Este repositório foi criado para um trabalho unuversitário sobre frameworks web. O alvo do grupo foi o Angular e, para exemplificar a utilização deste framework, construímos um sistema de lista de contatos.
 
+<p> O usuário pode favoritar, excluir, adicionar e visualizar seus contatos contemplando as ações de CRUD como solicitado. Além disso, o sistema sugere ao usuário novos contatos para que ele possa adicionar a sua lista.
+  
+  O Backend é foi desenvolvido em Spring e utilizamos duas APIs como fonte:
+  
+  > https://randomuser.me : Para gerar usuários fictícios e aleatórios;
+  
+  > https://www.countryflags.io/ : Para obter as bandeiras dos países origem de cada contato ;
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+<a href="https://github.com/Neemias-S/ContactListBack">`Repositório Backend`
 
-## Development server
+## Como rodar o projeto:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
