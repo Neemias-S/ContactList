@@ -1,4 +1,9 @@
-# AngularTecWeb
+<img style="height: 2rem;" src="https://web.sistemas.pucminas.br/BDP/PUC%20Minas/Home/Logo?seq=16EC68D2C1F309FAA3972EF167C78189">
+
+
+# Sistemas de Informação - Tecnologias Web
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
 
