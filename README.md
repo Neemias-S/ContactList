@@ -5,7 +5,7 @@
 
 <p> Este repositório foi criado para um trabalho universitário sobre o framework Angular. Para exemplificar a utilização deste framework, construímos um sistema de lista de contatos.
 
-<p> O usuário pode favoritar, excluir, adicionar e visualizar seus contatos contemplando as ações de CRUD como solicitado. Além disso, o sistema sugere ao usuário novos contatos para que ele possa adicionar a sua lista.
+<p> O usuário pode favoritar, excluir, adicionar e visualizar seus contatos contemplando as ações de CRUD como solicitado.
   
   O Backend é foi desenvolvido em Spring Boot e utilizamos duas APIs como fonte:
   
