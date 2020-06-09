@@ -14,7 +14,7 @@
 
 ## Como rodar o projeto:
 
-Para os passos a seguir é necessário a configuração prévia do Backend, se ainda não executou essa parte acesse o link do repositório acima.
+Para os passos a seguir é necessário a configuração prévia do Backend, se ainda não executou essa parte acesse o link do repositório acima e consulte o README do repositório.
 
  1 : Caso não tenha o Node Js instalado, acesse o <a href="https://nodejs.org/en/download/" target="_blank"> link </a> e faça o download apropriado para o seu SO.
 
