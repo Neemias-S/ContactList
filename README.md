@@ -28,4 +28,6 @@ Para os passos a seguir é necessário a configuração prévia do Backend, se a
 
  6 : Para acessar a página : `http://localhost:4200`
 
- 7 : Divirta-se :)
+ 7 : Caso queira subir o projeto em outra porta: `ng serve --port "numeroDaPortaDesejada"`
+
+ 8 : Divirta-se :)
