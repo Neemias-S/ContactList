@@ -13,20 +13,20 @@
   
   > https://www.countryflags.io/ : Para obter as bandeiras dos países origem de cada contato ;
 
-<a href="https://github.com/Neemias-S/ContactListBack">`Repositório Backend`</a>
+<a href="https://github.com/Neemias-S/ContactListBack" target="_blank">`Repositório Backend`</a>
 
 ## Como rodar o projeto:
 
-> 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : <a href="https://nodejs.org/en/download/" target="_blank"> </a>
+ 1 : Caso não tenha o Node Js instalado, acesse o link a seguir e faça o download apropriado para a sua máquina : <a href="https://nodejs.org/en/download/" target="_blank"> Download Node Js </a>
 
-> 2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
+ 2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
 
-> 3 : Para clonar o projeto, entre no repositório desejado, abra o prompt de comando e execute : `git clone https://github.com/Neemias-S/ContactList.git`
+ 3 : Para clonar o projeto, entre no repositório desejado, abra o prompt de comando e execute : `git clone https://github.com/Neemias-S/ContactList.git`
 
-> 4 : Para instalar as dependencias do projeto (pode levar alguns minutos) : `npm install -s`
+ 4 : Para instalar as dependencias do projeto (pode levar alguns minutos) : `npm install -s`
 
-> 5 : Para subir o servidor local : `ng serve`
+ 5 : Para subir o servidor local : `ng serve`
 
-> 6 : Para acessar a página : `http://localhost:4200`
+ 6 : Para acessar a página : `http://localhost:4200`
 
-> 7 : Divirta-se :)
+ 7 : Divirta-se :)
