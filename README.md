@@ -1,27 +1,33 @@
-# AngularTecWeb
+# PUC Minas - Sistemas de Informação - Tecnologias Web 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+<p> Este repositório foi criado para um trabalho universitário sobre o framework Angular, no qual construímos um sistema de lista de contatos.
 
-## Development server
+<p> O usuário pode favoritar, excluir, adicionar e visualizar seus contatos contemplando as ações de CRUD como solicitado.
+  
+  O Backend é foi desenvolvido em Spring Boot e utilizamos duas APIs como fonte:
+  
+  > https://randomuser.me : Para gerar usuários fictícios e aleatórios;
+  
+  > https://www.countryflags.io/ : Para obter as bandeiras dos países origem de cada contato ;
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+ > <a href="https://github.com/Neemias-S/ContactListBack" target="_blank">`Repositório Backend`</a> : Projeto em Spring
 
-## Code scaffolding
+## Como rodar o projeto:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para os passos a seguir é necessário a configuração prévia do Backend, se ainda não executou essa parte acesse o link do repositório acima e consulte o README do repositório.
 
-## Build
+ 1 : Caso não tenha o Node Js instalado, acesse o <a href="https://nodejs.org/en/download/" target="_blank"> link </a> e faça o download apropriado para o seu SO.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+ 2 : Para a instalação do Angular CLI: `npm install -g @angular/cli`
 
-## Running unit tests
+ 3 : Para clonar o projeto, entre no diretório desejado, abra o prompt de comando e execute : `git clone https://github.com/Neemias-S/ContactList.git`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+ 4 : Para instalar as dependencias do projeto, abra o prompt de comando no diretório que acabou de clonar e execute : `npm install -s`
 
-## Running end-to-end tests
+ 5 : Para subir o servidor local : `ng serve`
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+ 6 : Para acessar a página : `http://localhost:4200`
 
-## Further help
+ 7 : Caso queira subir o projeto em outra porta: `ng serve --port "numeroDaPortaDesejada"`
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+ 8 : Divirta-se :)
