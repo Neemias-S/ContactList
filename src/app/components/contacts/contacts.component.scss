@@ -25,9 +25,14 @@ $border: #6c757d;
         background-color: darken(#6c757d, 15%); 
         color:$white;
     }
+
     img:not(.flags){ border-radius: 35px; }
-    .card-header{ border: transparent; }
     
+    .card-header{ background-color: inherit; border-color: transparent; }
+    
+    .card-body{
+        padding: 0 1.25rem 1rem 0;
+    }
 }
 
 .menu-bar{

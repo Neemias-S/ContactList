@@ -10,6 +10,7 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import { AddContactComponent } from './components/add.contact/add.contact.component';
 import { ToastrService, ToastrModule } from 'ngx-toastr';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomePageComponent,
     NavbarComponent,
     ContactsComponent,
-    AddContactComponent
+    AddContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

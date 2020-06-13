@@ -22,7 +22,6 @@ export class AddContactComponent implements OnInit {
   async addContact(contact : Contact){
     return  this.service.addContact(contact).subscribe(res => {
       this.toastr.success("Contato adicionado!" , "");
-      console.log("oasaskmajsaso")
     });
   }
 
