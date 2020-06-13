@@ -30,4 +30,4 @@ Para os passos a seguir é necessário a configuração prévia do Backend, se a
 
  7 : Caso queira subir o projeto em outra porta: `ng serve --port "numeroDaPortaDesejada"`
 
- 8 : Divirta-se :)
+ 8 : Divirta-se :) ps: Quando abrir o projeto pela primeira vez sua lista de contatos estará vazia. Adicione novos contatos na opção "Adicionar Contatos"
